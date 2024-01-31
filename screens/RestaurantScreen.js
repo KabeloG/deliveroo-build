@@ -77,6 +77,7 @@ const RestaurantScreen = () => {
   return (
     <>
       <ScrollView>
+        <StatusBar translucent />
         <View className="relative">
           <Image
             source={{
